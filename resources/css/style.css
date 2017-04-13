@@ -1,0 +1,174 @@
+/* -------------------------- */
+/*        BASIC SETUP         */
+/* -------------------------- */
+
+/*  base color   #d35400  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: #504f4f;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+/* -------------------------- */
+/*        REUSABLE            */
+/* -------------------------- */
+
+
+.row {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 0;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h1 {
+    color: #fff; 
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+/*    text-align: center;*/
+
+}
+
+h2 {
+    font-size: 180%;
+    text-align: center;
+    margin-bottom: 30px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+   
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    width: 10%;
+    background-color: #d35400;
+    content: " "; 
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/*******ICONS*******/
+
+.icon-small {
+    color: #d35400;
+    font-size: 120%;
+    margin-right: 10px;
+}
+
+/* -------------------------- */
+/*        HEADER              */
+/* -------------------------- */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.58)), url("/resources/img/notebook.jpg");
+    background-size: cover;
+    height: 100vh;
+/*    background-position: center;*/
+}
+
+.logo {
+    float:left;
+    color: #fff;
+    font-size: 100%;
+    margin-top: 30px;   
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.main-nav li {
+    display: inline-block; 
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 90%;
+    padding: 8px 0;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom .4s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #d35400;
+}
+
+.hero {
+    position: absolute;
+    width: 1160px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+
+/* -------------------------- */
+/*        ABOUT               */
+/* -------------------------- */
+
+.about-box-left {
+    text-align: right;
+    padding-right: 10%;
+    
+}
+
+.about-box-right {
+    padding-left: 3%;
+}
+
+.brandon-pic {
+    width: 60%;
+    border-radius: 50%;
+}
+
+.list-heading {
+    display: inline-block;
+}
+
+.list-heading ul {
+    list-style: none;
+    margin: 10px 0;
+
+}
+
+/* -------------------------- */
+/*        portfolio           */
+/* -------------------------- */
+
+.portfolio {
+    background-color: #e0e0e0;
+}
+
+
+
+
+
+/* -------------------------- */
+/*        ABOUT               */
+/* -------------------------- */
