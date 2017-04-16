@@ -5,6 +5,7 @@
         <link rel="stylesheet" type="text/css" href="vendors/css/Grid.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
         <title>Brandon Koufeldt</title>
     </head>
@@ -37,10 +38,10 @@
             </div>
             <div class="row">
                 <div class="col span-1-of-2 about-box-left">
-                    <img src="resources/img/brandon2.jpg" class="brandon-pic">
+                    <img src="resources/img/coding.jpg" class="brandon-pic">
                 </div>
                 <div class="col span-1-of-2 about-box-right">
-                    <p>I began my career as a web devloper in 2015 at Code Louisville.  There I earned certificates in both backend and frontend web development. Below is a list of degrees/certifications, as well my competencies: </p><br>
+                    <p>I began my career as a web devloper in 2015 at Code Louisville.  While there I earned certificates in both backend and frontend web development. Below is a list of my degrees/certifications, as well my Language proficiencies. </p><br>
                     <div class="list-heading">
                         <i class="ion-university icon-small"></i>Education
                         <ul>
@@ -52,6 +53,10 @@
                     <br>
                     <div class="list-heading">
                         <i class="ion-code icon-small"></i>Languages
+                        <ul>
+                            <li>Frontend: HTML, CSS, Javascript, Angular, SASS, </li>
+                            <li>Backend: PHP, NodeJs, MySql, MongoDb</li>
+                        </ul>
                     </div>
                 </div>
             
@@ -60,7 +65,7 @@
         
         </section>
         
-<!-- Contact Form   -->
+<!-- Portfolio   -->
         <section class="portfolio">
             <div class="row">
                 <h2>My work.</h2>
@@ -73,8 +78,62 @@
             <div class="row">
                 <h2>Get in touch</h2>
             </div>
+            <div class="row">
+                <form method="post" action="#" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3 label-div">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Your name" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3 label-div">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Your email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3 label-div">
+                            <label>Message</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" placeholder="Your message"></textarea>
+                        </div>    
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Send">
+                        </div>    
+                    </div>
+                </form>
+            </div>
             
         </section>
+        
+<!--  Footer        -->
+        <footer>
+            <div class="row">
+                <nav>
+                    <ul class="social-links">
+                        <li><a href="https://www.linkedin.com/in/brandonkoufeldt/" target="_blank"><i class="ion-social-linkedin"></i></a></li>
+                        <li><a href="https://github.com/bkoufeldt" target="_blank"><i class="ion-social-github"></i></a></li>  
+                    </ul> 
+                </nav>
+            </div>
+            <div class="row">
+                <p> Copyright &#64; Brandon Koufeldt 2017</p>
+            </div>
+        
+        </footer>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         
     </body>
     

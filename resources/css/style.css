@@ -71,7 +71,7 @@ h2:after {
 
 .icon-small {
     color: #d35400;
-    font-size: 120%;
+    font-size: 140%;
     margin-right: 10px;
 }
 
@@ -82,6 +82,7 @@ h2:after {
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.58)), url("/resources/img/notebook.jpg");
     background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
 /*    background-position: center;*/
 }
@@ -134,7 +135,7 @@ header {
 
 .about-box-left {
     text-align: right;
-    padding-right: 10%;
+    padding-right: 3%;
     
 }
 
@@ -143,8 +144,9 @@ header {
 }
 
 .brandon-pic {
-    width: 60%;
-    border-radius: 50%;
+    width: 100%;
+    border-radius: 3px;
+   
 }
 
 .list-heading {
@@ -170,5 +172,99 @@ header {
 
 
 /* -------------------------- */
-/*        ABOUT               */
+/*        CONTACT             */
 /* -------------------------- */
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto; 
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    padding: 7px;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    width: 100%; 
+}
+
+textarea {
+    height: 100px;
+}
+
+*:focus {outline: none;}
+
+.label-div {
+    text-align: right; 
+    padding-right: 3%; 
+}
+
+
+input[type=submit]  {
+    display: inline-block;
+    background-color: #d35400;
+    border-radius: 300px; 
+    border: 1px solid #d35400; 
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: background-color .2s, border .2s, color .2s
+}
+
+
+input[type=submit]:hover, 
+input[type=submit]:active {
+    background-color: #b14600;
+    border: 1px solid #b14600;
+}   
+
+
+
+/* -------------------------- */
+/*        FOOTER              */
+/* -------------------------- */
+
+footer {
+    padding: 50px;
+    background-color: #2f2f2f;
+    font-size: 80%;
+}
+
+.social-links {
+    list-style: none;
+    text-align: center;
+}
+
+.social-links li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.social-links li a {
+    text-decoration: none; 
+    color: #959595;
+    font-size: 200%; 
+}
+
+footer p {
+    color: #959595; 
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ion-social-linkedin {
+    transition: color .2s;
+}
+
+.ion-social-linkedin:hover {
+    color:#007bb6;
+}
+
+.ion-social-github {
+    transition: color .2s;
+}
+
+.ion-social-github:hover {
+    color:#fff;
+}
