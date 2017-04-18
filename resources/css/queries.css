@@ -12,12 +12,92 @@
 @media only screen and (max-width: 1023px) {
     body {font-size: 18px;}  
     section {padding: 60px 0;}
+
 }
 
 @media only screen and (max-width: 767px) {
+    .mobile-nav-icon {display: inline-block;}
+    .main-nav {
+        display: none;
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        
+    }
+    
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        padding: 10px 0;
+    }
+    
+    h1 { font-size: 180%;}
+    h2 {font-size: 150%;}
+    
+    .sticky .mobile-nav-icon i {color: #555;}
+  
+    
+    
+    
     
 }
 
 @media only screen and (max-width: 480px) {
     
+    h1 {
+        margin-bottom: 0;
+        margin-top: 4px;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 5px 0;
+        font-size: 50%;      
+        
+    }
+    
+    .main-nav {
+        display: none;
+        float: left;
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+    
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 5px 0;
+        font-size: 50%;      
+        
+    }
+    
+    .sticky .main-nav {
+        display: none;
+        float: left;
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+    
+    .label-div {
+        text-align: left;
+        margin: 10px 0 3px 0;
+    }
+    
+    .logo,
+    .logo-black {
+        font-size: 80%;
+    }
 }

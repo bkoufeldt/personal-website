@@ -1,47 +1,64 @@
 <!DOCTYPE html>
 <html>
     <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/Grid.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="/resources/favicons/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="/resources/favicons/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="/resources/favicons/manifest.json">
+        <link rel="shortcut icon" href="/resources/favicons/favicon.ico">
+        <meta name="msapplication-config" content="/resources/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        
         <title>Brandon Koufeldt</title>
     </head>
     
     <body>
         
 <!-- Header   -->
-        <header>
-            <div class="row">
-                <div class="logo">
-                    Brandon Koufeldt, Web Developer
-                </div>
-                <nav>
-                    <ul class="main-nav">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Work</a></li>
-                        <li><a href="#">Contact</a></li>
+        <header id="home">
+            <nav>
+                <div class="row">
+                    <div class="logo">
+                        <a href="#home" class="white-logo-link">Brandon Koufeldt, Developer</a>
+                    </div>
+                    <div class="logo-black">
+                        <a href="#home" class="black-logo-link">Brandon Koufeldt, Developer</a>
+                    </div>
+                    <ul class="main-nav js--main-nav">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#work">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
-                </nav>
-            </div>
+                    <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon"></i></a>
+                </div>
+            </nav>
             <div class="hero">
-                <h1>Welcome. Bienvenido.</h1>
+                <h1 class="english">Welcome.</h1><h1 class="spanish">Bienvenido.</h1>
             </div>
         </header>
     
 <!-- About  -->
-        <section class="about">
+        <section class="about js--about" id="about">
             <div class="row">
                 <h2>About</h2>
             </div>
-            <div class="row">
+            <div class="row js--wp-1">
                 <div class="col span-1-of-2 about-box-left">
                     <img src="resources/img/coding.jpg" class="brandon-pic">
                 </div>
                 <div class="col span-1-of-2 about-box-right">
                     <p>I began my career as a web devloper in 2015 at Code Louisville.  While there I earned certificates in both backend and frontend web development. Below is a list of my degrees/certifications, as well my Language proficiencies. </p><br>
+                    
                     <div class="list-heading">
                         <i class="ion-university icon-small"></i>Education
                         <ul>
@@ -58,6 +75,7 @@
                             <li>Backend: PHP, NodeJs, MySql, MongoDb</li>
                         </ul>
                     </div>
+                       
                 </div>
             
             
@@ -66,15 +84,15 @@
         </section>
         
 <!-- Portfolio   -->
-        <section class="portfolio">
+        <section class="portfolio" id="work">
             <div class="row">
-                <h2>My work.</h2>
+                <h2>Portfolio</h2>
             </div>
             
         </section>        
 
 <!-- Contact Form   -->
-        <section class="contact">
+        <section class="contact" id="contact">
             <div class="row">
                 <h2>Get in touch</h2>
             </div>
@@ -120,20 +138,20 @@
 <!--  Footer        -->
         <footer>
             <div class="row">
-                <nav>
                     <ul class="social-links">
                         <li><a href="https://www.linkedin.com/in/brandonkoufeldt/" target="_blank"><i class="ion-social-linkedin"></i></a></li>
                         <li><a href="https://github.com/bkoufeldt" target="_blank"><i class="ion-social-github"></i></a></li>  
                     </ul> 
-                </nav>
             </div>
             <div class="row">
-                <p> Copyright &#64; Brandon Koufeldt 2017</p>
+                <p> &copy; Brandon Koufeldt 2017</p>
             </div>
         
         </footer>
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="vendors/js/jquery.waypoints.min.js"></script>
+        <script src="resources/js/script.js"></script>
         
     </body>
     
